@@ -23,6 +23,6 @@ def bubble_sort_by(arr)
 end
 
 puts bubble_sort([2, 4, 1, 6, 3, 7]).inspect
-puts (bubble_sort_by(%w[hi hello hey]) do |left, right|
+puts (bubble_sort_by %w[hi hello hey] do |left, right|
   left.length - right.length
 end).inspect
